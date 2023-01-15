@@ -13,6 +13,9 @@
 
     
 }
+.primary{
+    color: var(--primary-color);
+}
 
 /* ------------hero section style-----------/////////
 ------------========================================-- */
@@ -75,3 +78,46 @@
     padding-top: 25px;
 }
 
+/*------------------------------ quick view section 88888888888888888888888
+*******************************************************************888***/
+.quick-view {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+.view-img {
+    margin-left: 170px;
+}
+
+.view-img .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 400px;
+}
+
+.view-img .images > img {
+    width: 100%;
+    height: 100%;
+    
+}
+.view-list {
+    padding-left: 35px;
+}
+.view-list p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 22px;
+}
+.view-list h3 {
+font-size: 45px;
+font-weight: 500;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
