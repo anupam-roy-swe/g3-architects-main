@@ -16,13 +16,22 @@
 .primary{
     color: var(--primary-color);
 }
+.center
+{
+    text-align: center;
+}
+body {
+    max-width: 1450px;
+    background-color: #fff;
+}
 
 /* ------------hero section style-----------/////////
 ------------========================================-- */
 .hero-section{
     background-color: antiquewhite;
-    max-width: 1440px;
+    max-width: 1250px;
     width: 100%;
+    text-align: center;
    
     
 }
@@ -74,8 +83,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-bottom: 25px;
-    padding-top: 25px;
+  padding: 25px 0;
 }
 
 /*------------------------------ quick view section 88888888888888888888888
@@ -92,7 +100,7 @@
 .view-img .images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 2rem;
     width: 400px;
 }
 
@@ -102,22 +110,129 @@
     
 }
 .view-list {
-    padding-left: 35px;
+    padding-left: 3.5rem;
 }
 .view-list p {
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 2.6rem;
     letter-spacing: 0em;
     text-align: left;
     margin-bottom: 22px;
 }
 .view-list h3 {
-font-size: 45px;
+font-size: 3.5rem;
 font-weight: 500;
-line-height: 53px;
+line-height: 5.3rem;
 letter-spacing: 0em;
 text-align: left;
 
 
 }
+
+
+/* feature section */
+
+
+/* card section */
+.card-title {
+    margin-top: 30px;
+}
+.card-title h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+.card-title p{
+    fo
+}
+
+.card-section {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .card {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 30px 50px;
+    background: #fff;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  
+  .card:hover {
+    height: 220px;
+  }
+  
+  .imgbox {
+    position: relative;
+    width: 100%;
+    height: 70%;
+    transform: translateY(-80px);
+    z-index: 99;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .content {
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-350px);
+    opacity: 0;
+    transition: 0.3s;
+  }
+  
+  .card:hover > .content {
+    opacity: 1;
+    transform: translateY(-90px);
+  }
+  
+  .content h2 {
+    color: #111;
+  }
+  .content p {
+    color: #111;
+  }
+
+/*------------------------------ .sponspors section 88888888888888888888888
+*******************************************************************888***/
+.sponspors {
+    margin-top: 40px;
+    text-align: center;
+}
+.sponspors h3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.sponspors p {
+    font-size: 16px;
+    font-weight: 300;
+}
+.sponspors-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    margin-top: 2rem;
+    
+}
+.sponspors-img > img {
+    filter: grayscale();
+}
+
+
+
+/* responsive style */
+
